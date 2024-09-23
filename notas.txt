@@ -1,0 +1,34 @@
+
+
+style.css
+
+/**/ -> comentário -> multilinhas
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url() -> diretiva css para importação de arquivo externo
+
+https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap -> url da fonte
+--> A parte family=Chakra+Petch indica o nome da fonte, e os números após o nome especificam as variantes da fonte (itálico, negrito, etc.) que queremos incluir. O parâmetro display=swap otimiza o carregamento da fonte.
+--> https -> indica o uso do protocolo http seguro para acesso ao recurso (fonte Chakra Petch)
+-->fonts.googleapis.com
+-->css2
+-->?family=Chakra+Petch:
+-->
+-->
+
+https: Indica que estamos usando o protocolo HTTP seguro para acessar o recurso.
+[URL inválido removido]: Este é o domínio do Google Fonts, onde estão hospedadas as fontes.
+css2: Especifica que estamos solicitando uma folha de estilos CSS, que é o formato utilizado para definir a aparência de um documento HTML.
+?family=Chakra+Petch:
+
+?: Indica o início dos parâmetros da consulta, que são informações adicionais passadas para a URL.
+family=Chakra+Petch: Aqui estamos especificando que queremos a família de fontes chamada "Chakra Petch". É como se fosse o sobrenome da fonte.
+:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700:
+
+:ital,wght: Indica que queremos especificar as variações da fonte, como itálico (ital) e peso (wght).
+@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700: São os valores específicos para cada variação. O primeiro número indica se a fonte é itálica (1) ou não (0), e o segundo número indica o peso da fonte (quanto mais alto, mais grossa a fonte).
+&display=swap:
+
+&: Separa os diferentes parâmetros da consulta.
+display=swap: Essa opção otimiza o carregamento da fonte, evitando que o texto pisque enquanto a fonte é carregada.

@@ -22,9 +22,12 @@
         <!-- Seção Pesquisa -->
         <section>
             <!-- Barra de Pesquisa -->
-            <input type="text" placeholder="Digite o nome de um personagem">
+            <input type="text" placeholder="Digite o nome de um personagem ou livro." id="campo-pesquisa">
             <!-- Botão de Pesquisa -> trocar por ícone lupa -->
-            <button>Pesquisar</button>
+            <button id="botao-pesquisa" onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <!-- Seção Resultados -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <!-- Fim Conteúdo Principal -->
@@ -37,6 +40,7 @@
     <!-- Fim Rodapé -->
 
     <!-- JavaScript -->
-    <script src="./js/app.js"></script>
+    <script src="./js/dados.js"></script> <!-- Dados -->
+    <script src="./js/app.js"></script> <!-- Lógica -->
 </body>
 </html>
